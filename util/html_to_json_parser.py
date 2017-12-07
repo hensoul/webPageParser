@@ -107,9 +107,3 @@ class HtmlTextToJsonParser(object):
             valid_json = yaml.load(js_variable_value)
             return valid_json
 
-
-# if __name__ == '__main__':
-#     content = UrlRequest.get_content("http://www.miaopai.com/u/qqsso_y807jf5aw4/relation/fans.htm")
-#     test = HtmlTextToJsonParser(content, "json.xml", None)
-#     result111 = test.get_result()
-#     print result111
